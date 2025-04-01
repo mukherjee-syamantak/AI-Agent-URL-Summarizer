@@ -42,11 +42,14 @@ streamlit run src/app.py
 
 ## Folder Structure
 ```
-/AI_AGENT_URL_SUMMARY
-│
-├── app.py
+AI_AGENT_URL_SUMMARY/
+├── src/
+│   ├── agent.py
+│   └── app.py
+├── .env.example      # Template for API key
+├── .gitignore        # Excludes .env, .venv, etc.
 ├── requirements.txt
-└── venv/
+└── README.md
 ```
 
 ## Limitations
